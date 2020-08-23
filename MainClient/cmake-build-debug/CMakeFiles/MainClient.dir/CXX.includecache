@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vorkov/Workspace/C++/LearnUDP/MainClient/Client.cpp
+Client.h
+/home/vorkov/Workspace/C++/LearnUDP/MainClient/Client.h
+
+/home/vorkov/Workspace/C++/LearnUDP/MainClient/Client.h
+cstring
+-
+iostream
+-
+string
+-
+arpa/inet.h
+-
+netdb.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+
